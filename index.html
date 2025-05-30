@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LearnHub</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>LearnHub</h1>
+      <div class="auth-buttons">
+        <button class="btn outline">Login</button>
+        <button class="btn">Sign Up</button>
+      </div>
+    </header>
+
+    <main class="main-grid">
+      <section class="card video-card">
+        <h2>Video Lesson</h2>
+        <video controls poster="https://via.placeholder.com/800x400.png?text=Lesson+Preview">
+          <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </section>
+
+      <section class="card progress-card">
+        <h2>Your Progress</h2>
+        <p>Chapter 3 of 10</p>
+        <div class="progress-bar-bg">
+          <div class="progress-bar" id="progress-bar"></div>
+        </div>
+        <button class="btn full" onclick="increaseProgress()">Mark Next Complete</button>
+      </section>
+
+      <section class="card quiz-card">
+        <h2>Quiz Time</h2>
+        <form onsubmit="submitQuiz(event)">
+          <label>What is React?</label>
+          <input type="text" placeholder="Type your answer..." required />
+
+          <label>Explain useState Hook</label>
+          <input type="text" placeholder="Type your answer..." required />
+
+          <button type="submit" class="btn">Submit Quiz</button>
+        </form>
+      </section>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
