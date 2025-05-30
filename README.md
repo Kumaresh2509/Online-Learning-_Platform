@@ -35,6 +35,7 @@ All UI elements are built using modular, reusable components—`Button`, `Card`,
 
 Overall, LearnHub is more than just a front-end layout—it’s a strong prototype for a full-featured e-learning platform. Its clean design, responsive layout, and interactive components provide a solid foundation for any developer looking to build or contribute to an educational technology solution. With minimal effort, this interface can be connected to a backend system to support authentication, course management, and learner analytics. The platform demonstrates how React and modern CSS tools can be combined to create powerful, user-centered educational tools.
 
+OUTPUT : 
 
-Original URL: [https://codepen.io/kumaresh-N/pen/jEPbgPZ](https://codepen.io/kumaresh-N/pen/jEPbgPZ).
+![Image](https://github.com/user-attachments/assets/06d407db-7f3c-4fc2-97ba-1375aee9120e)
 
